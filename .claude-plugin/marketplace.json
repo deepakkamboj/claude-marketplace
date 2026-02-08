@@ -1,7 +1,7 @@
 {
-  "name": "deepakkamboj",
+  "name": "deepakkamboj/claude-marketplace",
   "owner": {
-    "name": "DevBuild Studio",
+    "name": "Deepak Kamboj",
     "email": "deepakkamboj@gmail.com"
   },
   "plugins": [
@@ -11,7 +11,7 @@
       "description": "A comprehensive accessibility-first development environment for Claude Code with WCAG 2.1 AA compliance, Playwright testing, and proactive accessibility guidance.",
       "version": "1.0.0",
       "author": {
-        "name": "DevBuild Studio",
+        "name": "Deepak Kamboj",
         "email": "deepakkamboj@gmail.com"
       },
       "strict": false

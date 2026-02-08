@@ -1067,4 +1067,4 @@ For plugin contributions, see [ADDING_PLUGINS.md](ADDING_PLUGINS.md).
 
 - **Issues:** https://github.com/deepakkamboj/claude-marketplace/issues
 - **Discussions:** https://github.com/deepakkamboj/claude-marketplace/discussions
-- **Email:** support@devbuild.studio
+- **Email:** deepakkamboj@gmail.com
