@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "accessibility": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/dist/index.js"]
+    },
+    "playwright-a11y": {
+      "command": "npx",
+      "args": ["playwright-accessibility-mcp-server"]
+    }
+  }
+}

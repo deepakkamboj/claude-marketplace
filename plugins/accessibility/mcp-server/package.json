@@ -1,0 +1,57 @@
+{
+  "name": "@deepakkamboj/accessibility-mcp",
+  "version": "1.0.0",
+  "description": "MCP server providing comprehensive accessibility analysis tools for WCAG 2.1 compliance",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "accessibility-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run build:bundle && npm run build:types",
+    "build:bundle": "esbuild src/index.ts --bundle --platform=node --format=esm --outfile=dist/index.js",
+    "build:types": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "accessibility",
+    "wcag",
+    "wcag2.1",
+    "a11y",
+    "contrast",
+    "color-contrast",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "claude-code",
+    "accessibility-testing",
+    "wcag-conformance",
+    "playwright",
+    "axe-core"
+  ],
+  "author": "DevBuild Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepakkamboj/accessibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakkamboj/accessibility/issues"
+  },
+  "homepage": "https://github.com/deepakkamboj/accessibility#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.25.11",
+    "typescript": "^5.7.2"
+  }
+}
