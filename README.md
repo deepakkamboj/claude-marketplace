@@ -1043,6 +1043,12 @@ See [ADDING_PLUGINS.md](ADDING_PLUGINS.md) for detailed instructions and plugin 
 
 ---
 
+## Acknowledgments
+
+Special thanks to the [AccessLint claude-marketplace](https://github.com/AccessLint/claude-marketplace) project for inspiration and guidance on some of the accessibility skills implemented in this marketplace.
+
+---
+
 ## License
 
 MIT
