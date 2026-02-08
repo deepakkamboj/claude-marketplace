@@ -1,4 +1,4 @@
-# DevBuild Studio Plugin Marketplace for Claude Code
+# Developer Toolkit Marketplace for Claude Code
 
 A collection of high-quality Claude Code plugins for development, testing, and code quality.
 
@@ -440,7 +440,7 @@ From within Claude Code, add the marketplace using the GitHub repo:
 /plugin marketplace add deepakkamboj/claude-marketplace
 ```
 
-This registers the DevBuild Studio marketplace catalog so you can browse and install plugins.
+This registers the Developer Toolkit Marketplace catalog so you can browse and install plugins.
 
 ### Install Plugins
 
